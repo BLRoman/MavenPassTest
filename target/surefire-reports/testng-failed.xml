@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [JavaRush]">
+  <test name="Default(failed)">
+    <classes>
+      <class name="java_pass_test">
+        <methods>
+          <include name="shut_down"/>
+          <include name="start_up"/>
+          <include name="javaPassTestTwo"/>
+        </methods>
+      </class> <!-- java_pass_test -->
+    </classes>
+  </test> <!-- Default(failed) -->
+</suite> <!-- Failed suite [JavaRush] -->
