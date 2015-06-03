@@ -3,7 +3,7 @@
 <suite name="JavaRush" verbose="1" >
 	<test name="Default">
 		<classes>
-			<class name="java_pass_test"/>
+			<class name="PageFactory.PageObjectPassTest"/>
 		</classes>
 	</test>
 </suite>		

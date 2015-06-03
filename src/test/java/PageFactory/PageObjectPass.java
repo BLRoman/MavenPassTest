@@ -11,7 +11,7 @@ public class PageObjectPass {
 	@FindBy (name="site")
 	private WebElement site;
 	
-	@FindBy (xpath="html/body/form/table/tbody/tr[3]/td/input")
+	@FindBy (xpath="//input[@type='submit']")
 	private WebElement button;
 	
 	@FindBy (name="password")
