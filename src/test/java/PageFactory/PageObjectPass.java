@@ -1,20 +1,25 @@
 package PageFactory;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+
+
 public class PageObjectPass {
 
-	@FindBy (name="master")
+	
+	
+	@FindBy (xpath="//td[text()='Your master password']/following::input[1]")
 	private WebElement master;
 	
-	@FindBy (name="site")
+	@FindBy (xpath="//td[text()='Site name']/following::input[1]")
 	private WebElement site;
 	
 	@FindBy (xpath="//input[@type='submit']")
 	private WebElement button;
 	
-	@FindBy (name="password")
+	@FindBy (xpath="//td[text()='Generated password']/following::input[1]")
 	private WebElement password;
 	
 	
@@ -37,7 +42,9 @@ public class PageObjectPass {
 	
 	public void submitbutton()
 	{
+	    
 		button.click();
+		
 	}
 	
 	public boolean isPassTextEmpty()
